@@ -3,5 +3,5 @@
   <%= @post.content %>
 </p>
 <p>
-  Categories: <%= @post.categories.map
+  Categories: <%= @post.categories.map(&:name)
 </p>
